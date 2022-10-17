@@ -550,7 +550,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .learning__logos {
     display: flex;
-    gap: 90px;
+    /* justify-content: space-around; */
+    gap: 30px;
     filter: invert(100%) grayscale(100%) opacity(.8);
 }
 
@@ -610,6 +611,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .contact__info {
     max-width: var(--container-medium-width);
+    /* gap: 500px; */
 }
 
 /* --------------------------------------- */
@@ -623,7 +625,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer__social-links {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding: var(--gutter-normal) 0;
     list-style: none;
 }
