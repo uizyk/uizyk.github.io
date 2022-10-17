@@ -115,10 +115,11 @@ img {
     max-width: 100%;
 }
 
-.dear-diary {
+.dear-diary, .speak-easy{
     width: 45%;
-
 }
+
+
 
 /* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
