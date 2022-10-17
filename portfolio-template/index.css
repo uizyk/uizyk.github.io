@@ -517,6 +517,10 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Skills ----- */
 /* --------------------------------------- */
 
+.skills-row{
+    margin-bottom: 100px;
+}
+
 .skills__logos {
     display: flex;
     justify-content: space-between;
@@ -538,6 +542,35 @@ body:not(.user-is-tabbing) a:focus {
         margin-right: var(--gutter-medium);
     }
 }
+
+
+/* --------------------------------------- */
+/* ----- Learning ----- */
+/* --------------------------------------- */
+
+.learning__logos {
+    display: flex;
+    gap: 90px;
+    filter: invert(100%) grayscale(100%) opacity(.8);
+}
+
+.learning__logo {
+    height: 6.5rem;
+    max-width: 18rem;
+}
+
+@media(max-width: 1240px) {
+    .learning__logos {
+        overflow-x: scroll;
+        padding: var(--gutter-normal);
+    }
+
+    .learning__logo:not(:last-of-type) {
+        margin-right: var(--gutter-medium);
+    }
+}
+
+
 
 /* --------------------------------------- */
 /* ----- About ----- */
