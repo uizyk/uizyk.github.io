@@ -58,6 +58,11 @@ html {
     font-size: 62.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;  
+}
+
+.scroll-snap{
+    scroll-snap-align:center;
 }
 
 @media(max-width: 1000px) {
