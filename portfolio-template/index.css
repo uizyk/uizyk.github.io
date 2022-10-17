@@ -310,6 +310,10 @@ body:not(.user-is-tabbing) a:focus {
 
 /* ----- Back to Top ----- */
 
+.bottom {
+    position: relative;
+}
+
 .back-to-top {
     position: fixed;
     bottom: 4rem;
